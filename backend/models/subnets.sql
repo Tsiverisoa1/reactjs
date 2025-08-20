@@ -1,0 +1,5 @@
+CREATE TABLE subnets (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  cidr VARCHAR(18) NOT NULL UNIQUE,
+  description TEXT
+);
